@@ -1,0 +1,1 @@
+## How to create a database on ubuntu VM
