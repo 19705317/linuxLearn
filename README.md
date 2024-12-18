@@ -136,3 +136,7 @@ top: shows all running processes on the entire system | pressing m will sort by 
 
 kill: "kill -1 (process ID)" will terminate the process | -15 will get rid of the process immediately
 
+|: pipelining 2 commands (output is piplined from left to the right)
+
+&&: command link (can connect to commands so both can be ran once on an enter push)
+
