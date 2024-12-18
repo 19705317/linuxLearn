@@ -22,7 +22,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install nodejs -y
 git clone https://github.com/daraymonsta/tech201-sparta-app repo
 
 # install npm
-npm install --prefix ~/repo/app
+npm install --prefix ~/repo/app -g
 
 #run app & will cause it to run in background so ctrl + c wont close the app
 node ~/repo/app/app.js &
